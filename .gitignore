@@ -1,0 +1,16 @@
+# Ignorar la carpeta de plugins de Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Ignorar archivos de estado local de Terraform
+*.tfstate
+*.tfstate.backup
+
+# Ignorar variables sensibles y entornos
+*.tfvars
+*.tfvars.json
+.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
